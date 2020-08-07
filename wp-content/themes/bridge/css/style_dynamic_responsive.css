@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1000px) {.header_bottom {background-color: #fff;}}
+@media only screen and (min-width: 480px) and (max-width: 768px) {section.parallax_section_holder {height: auto !important;min-height: 400px;}}
+@media only screen and (max-width: 768px) {h1, h1 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title {font-size: 80px;line-height: 75px;letter-spacing: 0px;}
+	h2, h2 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {font-size: 34px;letter-spacing: 0px;}
+	h3, h3 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {font-size: 34px;line-height: 44px;letter-spacing: 0px;}
+	h4, h4 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h4.elementor-heading-title {font-size: 20px;letter-spacing: 0px;}
+	h5, h5 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h5.elementor-heading-title {font-size: 19px;}
+	h6, h6 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h6.elementor-heading-title {font-size: 18px;}}
+@media only screen and (max-width: 600px) {h1, h1 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title {font-size: 50px;line-height: 47px;}
+	h2, h2 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {font-size: 30px;line-height: 34px;}
+	h3, h3 a, body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {font-size: 26px;line-height: 34px;}
+	body, p, .elementor-widget-heading p.elementor-heading-title {font-size: 14px;}}
+@media only screen and (max-width: 480px) {section.parallax_section_holder {height: auto !important;min-height: 400px;}}
