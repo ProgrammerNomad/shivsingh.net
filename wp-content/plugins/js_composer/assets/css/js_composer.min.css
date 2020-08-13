@@ -2514,6 +2514,9 @@ body ul.wpb_thumbnails-fluid li .entry-content :last-child {margin-bottom: 0;}
 .wpb_video_widget.vc_video-aspect-ratio-169 .wpb_video_wrapper {padding-top: 56.25%;}
 .wpb_video_widget.vc_video-aspect-ratio-43 .wpb_video_wrapper {padding-top: 75%;}
 .wpb_video_widget.vc_video-aspect-ratio-235 .wpb_video_wrapper {padding-top: 42.55319149%;}
+.wpb_video_widget.vc_video-aspect-ratio-916 .wpb_video_wrapper {padding-top: 177.77777778%;}
+.wpb_video_widget.vc_video-aspect-ratio-34 .wpb_video_wrapper {padding-top: 133.33333333%;}
+.wpb_video_widget.vc_video-aspect-ratio-1235 .wpb_video_wrapper {padding-top: 235%;}
 .wpb_video_widget.vc_video-align-left .wpb_wrapper {float: left;}
 .wpb_video_widget.vc_video-align-center .wpb_wrapper {margin: 0 auto;}
 .wpb_video_widget.vc_video-align-right .wpb_wrapper {float: right;}
