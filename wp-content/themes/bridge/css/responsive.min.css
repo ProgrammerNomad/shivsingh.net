@@ -3,7 +3,7 @@
 	.full_width .projects_masonry_holder:not(.gs3) .portfolio_masonry_item.large_width, .full_width .projects_masonry_holder:not(.gs3) .portfolio_masonry_item.large_width_height {width: 50% !important;margin: 0 !important;}}
 @media only screen and (max-width:1400px) {.full_width .q_masonry_blog .q_masonry_blog_grid_sizer, .full_width .q_masonry_blog article {width: 23%;}
 	.full_width .q_masonry_blog .q_masonry_blog_grid_gutter {width: 2.6%;}
-	.full_width .grid_section .q_masonry_blog article, .full_width .grid_section .q_masonry_blog_grid_sizer {width: 31.2%;}
+	.full_width .grid_section .q_masonry_blog article, .full_width .grid_section .q_masonry_blog_grid_sizer, .full_width .qode_elementor_container_inner .q_masonry_blog article, .full_width .qode_elementor_container_inner .q_masonry_blog_grid_sizer {width: 31.2%;}
 	.blog_holder.masonry_full_width .blog_holder_grid_sizer, .blog_holder.masonry_full_width article {width: 23%;}
 	.blog_holder.masonry_full_width .blog_holder_grid_gutter {width: 2.6%;}
 	.full_screen_navigation_holder.up_arrow {top: 10px;}
@@ -122,11 +122,12 @@
 	.dark .header_top .header-widget, .dark .header_top .header-widget a, .dark .header_top .header-widget p, .dark .header_top .header-widget span, .dark .header_top .header-widget.widget_nav_menu ul.menu>li>a, .dark .header_top .q_social_icon_holder i.simple_social, .dark .header_top .q_social_icon_holder span.simple_social, .dark .mobile_menu_button span, .dark .shopping_cart_header .header_cart>i, .dark .side_menu_button>a {color: #777;}
 	.dark .header_top #lang_sel>ul>li>a, .dark .header_top #lang_sel_click>ul>li>a, .dark .header_top .q_social_icon_holder i.simple_social, .dark .header_top .q_social_icon_holder span.simple_social {color: #777 !important;}
 	.title {height: auto !important;padding: 30px 0 !important;}
-	.title_outer.with_image .title, .title_outer.with_image .title .title_subtitle_holder {padding: 0 !important;}
+	.title_outer.with_image .title {padding: 0 !important;}
 	.title.has_background, .title.has_fixed_background {background: 0 0 !important;height: auto !important;padding: 0 !important;}
 	.title_outer.animate_title_area {height: auto !important;opacity: 1 !important;}
 	.title .not_responsive {display: block;}
 	.angled-section.svg-title-bottom, div.q_slider+div .angled-section, nav.content_menu ul.menu {display: none;}
+	.title_outer.with_image .title .title_subtitle_holder {padding: 0 !important;}
 	.title h1 {margin: 0;}
 	.title.with_angled {padding-top: 20px;padding-bottom: 20px;}
 	.shopping_cart_inner, .side_menu_button {height: 100px !important;}
@@ -156,7 +157,7 @@
 	.q_masonry_blog .q_masonry_blog_grid_gutter {width: 4%;}
 	.full_width .q_masonry_blog .q_masonry_blog_grid_sizer, .full_width .q_masonry_blog article {width: 31.2%;}
 	.full_width .q_masonry_blog .q_masonry_blog_grid_gutter {width: 3.2%;}
-	.full_width .grid_section .q_masonry_blog article, .full_width .grid_section .q_masonry_blog_grid_sizer {width: 48%;}
+	.full_width .grid_section .q_masonry_blog article, .full_width .grid_section .q_masonry_blog_grid_sizer, .full_width .qode_elementor_container_inner .q_masonry_blog article, .full_width .qode_elementor_container_inner .q_masonry_blog_grid_sizer {width: 48%;}
 	.blog_holder.blog_pinterest .blog_holder_grid_gutter, .blog_holder.masonry .blog_holder_grid_gutter {width: 6%;}
 	.blog_holder.masonry_full_width .blog_holder_grid_sizer, .blog_holder.masonry_full_width article {width: 30.5%;}
 	.blog_holder.masonry_full_width .blog_holder_grid_gutter {width: 4.2%;}
@@ -269,7 +270,7 @@
 	.masonry_with_space .projects_holder.v4 .mix, .masonry_with_space .projects_holder.v4 .qode-portfolio-masonry-gallery-grid-sizer, .masonry_with_space .projects_holder.v5 .mix, .masonry_with_space .projects_holder.v5 .qode-portfolio-masonry-gallery-grid-sizer, .masonry_with_space .projects_holder.v6 .mix, .masonry_with_space .projects_holder.v6 .qode-portfolio-masonry-gallery-grid-sizer {width: 33.33%;}
 	.projects_holder.alternating_sizes .mix {margin-bottom: 2%;}
 	.projects_holder.alternating_sizes .mix:nth-child(2n) {-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
-	.blog_holder.blog_pinterest .blog_holder_grid_sizer, .blog_holder.blog_pinterest article, .blog_holder.masonry .blog_holder_grid_sizer, .blog_holder.masonry article, .blog_holder.masonry_full_width article, .full_width .grid_section .q_masonry_blog article, .full_width .grid_section .q_masonry_blog_grid_sizer, .q_masonry_blog .q_masonry_blog_grid_sizer, .q_masonry_blog article {width: 46.5%;}
+	.blog_holder.blog_pinterest .blog_holder_grid_sizer, .blog_holder.blog_pinterest article, .blog_holder.masonry .blog_holder_grid_sizer, .blog_holder.masonry article, .blog_holder.masonry_full_width article, .full_width .grid_section .q_masonry_blog article, .full_width .grid_section .q_masonry_blog_grid_sizer, .full_width .qode_elementor_container_inner .q_masonry_blog article, .full_width .qode_elementor_container_inner .q_masonry_blog_grid_sizer, .q_masonry_blog .q_masonry_blog_grid_sizer, .q_masonry_blog article {width: 46.5%;}
 	.blog_holder.blog_pinterest .blog_holder_grid_gutter, .blog_holder.masonry .blog_holder_grid_gutter, .full_width .grid_section .q_masonry_blog .q_masonry_blog_grid_gutter, .q_masonry_blog .q_masonry_blog_grid_gutter {width: 7%;}
 	.blog_holder.blog_small_image article .post_text .post_text_inner {min-height: 0 !important;}
 	.blog_holder.masonry_full_width .blog_holder_grid_sizer, .blog_holder.masonry_full_width article, .comment_holder .comments, .full_width .q_masonry_blog article, .two_columns_25_75 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.blog_chequered article, .two_columns_25_75 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.blog_pinterest article, .two_columns_25_75 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.masonry article, .two_columns_25_75 .q_masonry_blog .q_masonry_blog_grid_sizer, .two_columns_25_75 .q_masonry_blog article, .two_columns_33_66 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.blog_chequered article, .two_columns_33_66 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.blog_pinterest article, .two_columns_33_66 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.masonry article, .two_columns_33_66 .q_masonry_blog .q_masonry_blog_grid_sizer, .two_columns_33_66 .q_masonry_blog article, .two_columns_66_33 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.blog_chequered article, .two_columns_66_33 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.blog_pinterest article, .two_columns_66_33 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.masonry article, .two_columns_66_33 .q_masonry_blog .q_masonry_blog_grid_sizer, .two_columns_66_33 .q_masonry_blog article, .two_columns_75_25 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.blog_chequered article, .two_columns_75_25 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.blog_pinterest article, .two_columns_75_25 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.masonry article, .two_columns_75_25 .q_masonry_blog .q_masonry_blog_grid_sizer, .two_columns_75_25 .q_masonry_blog article {width: 100%;}
@@ -399,7 +400,7 @@
 	body.side_menu_slide_with_content.side_menu_open .wrapper, body.side_menu_slide_with_content.side_menu_open header.fixed, body.side_menu_slide_with_content.side_menu_open header.fixed_hiding, body.side_menu_slide_with_content.side_menu_open header.sticky, body.side_menu_slide_with_content.width_270.side_menu_open .wrapper, body.side_menu_slide_with_content.width_270.side_menu_open header.fixed, body.side_menu_slide_with_content.width_270.side_menu_open header.fixed_hiding, body.side_menu_slide_with_content.width_270.side_menu_open header.sticky, body.side_menu_slide_with_content.width_370.side_menu_open .wrapper, body.side_menu_slide_with_content.width_370.side_menu_open header.fixed, body.side_menu_slide_with_content.width_370.side_menu_open header.fixed_hiding, body.side_menu_slide_with_content.width_370.side_menu_open header.sticky {left: -100%;}
 	#respond textarea {padding: 13px;}
 	.comment_holder .comment-list li ul.children {padding: 0 0 0 30px;}
-	.blog_holder.blog_chequered .blog_holder_grid_sizer, .blog_holder.blog_chequered article, .blog_holder.blog_gallery .blog_holder_grid_sizer, .blog_holder.blog_gallery article, .blog_holder.blog_pinterest .blog_holder_grid_sizer, .blog_holder.blog_pinterest article, .blog_holder.masonry .blog_holder_grid_sizer, .blog_holder.masonry article, .full_width .grid_section .q_masonry_blog article, .q_masonry_blog article, .two_columns_25_75 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.blog_chequered article, .two_columns_25_75 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.blog_pinterest article, .two_columns_25_75 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.masonry article, .two_columns_25_75 .q_masonry_blog article, .two_columns_33_66 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.blog_chequered article, .two_columns_33_66 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.blog_pinterest article, .two_columns_33_66 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.masonry article, .two_columns_33_66 .q_masonry_blog article, .two_columns_66_33 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.blog_chequered article, .two_columns_66_33 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.blog_pinterest article, .two_columns_66_33 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.masonry article, .two_columns_66_33 .q_masonry_blog article, .two_columns_75_25 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.blog_chequered article, .two_columns_75_25 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.blog_pinterest article, .two_columns_75_25 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.masonry article, .two_columns_75_25 .q_masonry_blog article {width: 100%;}
+	.blog_holder.blog_chequered .blog_holder_grid_sizer, .blog_holder.blog_chequered article, .blog_holder.blog_gallery .blog_holder_grid_sizer, .blog_holder.blog_gallery article, .blog_holder.blog_pinterest .blog_holder_grid_sizer, .blog_holder.blog_pinterest article, .blog_holder.masonry .blog_holder_grid_sizer, .blog_holder.masonry article, .full_width .grid_section .q_masonry_blog article, .full_width .qode_elementor_container_inner .q_masonry_blog article, .full_width .qode_elementor_container_inner .q_masonry_blog_grid_sizer, .q_masonry_blog article, .two_columns_25_75 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.blog_chequered article, .two_columns_25_75 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.blog_pinterest article, .two_columns_25_75 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_25_75 .blog_holder.masonry article, .two_columns_25_75 .q_masonry_blog article, .two_columns_33_66 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.blog_chequered article, .two_columns_33_66 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.blog_pinterest article, .two_columns_33_66 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_33_66 .blog_holder.masonry article, .two_columns_33_66 .q_masonry_blog article, .two_columns_66_33 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.blog_chequered article, .two_columns_66_33 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.blog_pinterest article, .two_columns_66_33 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_66_33 .blog_holder.masonry article, .two_columns_66_33 .q_masonry_blog article, .two_columns_75_25 .blog_holder.blog_chequered .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.blog_chequered article, .two_columns_75_25 .blog_holder.blog_pinterest .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.blog_pinterest article, .two_columns_75_25 .blog_holder.masonry .blog_holder_grid_sizer, .two_columns_75_25 .blog_holder.masonry article, .two_columns_75_25 .q_masonry_blog article {width: 100%;}
 	.blog_holder.blog_pinterest .blog_holder_grid_gutter, .blog_holder.masonry .blog_holder_grid_gutter, .two_columns_25_75 .blog_holder.blog_pinterest .blog_holder_grid_gutter, .two_columns_25_75 .blog_holder.masonry .blog_holder_grid_gutter, .two_columns_33_66 .blog_holder.blog_pinterest .blog_holder_grid_gutter, .two_columns_33_66 .blog_holder.masonry .blog_holder_grid_gutter, .two_columns_66_33 .blog_holder.blog_pinterest .blog_holder_grid_gutter, .two_columns_66_33 .blog_holder.masonry .blog_holder_grid_gutter, .two_columns_75_25 .blog_holder.blog_pinterest .blog_holder_grid_gutter, .two_columns_75_25 .blog_holder.masonry .blog_holder_grid_gutter {width: 0;}
 	.blog_holder.masonry_gallery .blog_holder_grid_sizer, .blog_holder.masonry_gallery article, .column_inner .blog_holder.masonry_gallery .blog_holder_grid_sizer, .column_inner .blog_holder.masonry_gallery article {width: 100%;}
 	.blog_holder.masonry_gallery article.large-height img, .column_inner .blog_holder.masonry_gallery article.large-height img {width: 100%;height: auto;}
@@ -442,12 +443,12 @@
 	.frame_holder.frame_holder4 .wpb_flexslider.flexslider.have_frame {width: 384px;}
 	.frame_holder.frame_holder4>.wpb_wrapper {padding: 18px 0 87px;}
 	.qode_pricing_tables .q_price_table {width: 100% !important;margin-left: 0;margin-bottom: 15px;}
-	.grid-sizer, .masonry_gallery_holder.three_columns .grid-sizer, .masonry_gallery_holder.three_columns .masonry_gallery_item.rectangle_landscape, .masonry_gallery_holder.three_columns .masonry_gallery_item.rectangle_portrait, .masonry_gallery_holder.three_columns .masonry_gallery_item.square_big, .masonry_gallery_holder.three_columns .masonry_gallery_item.square_small, .masonry_gallery_holder.two_columns .grid-sizer, .masonry_gallery_holder.two_columns .masonry_gallery_item.rectangle_portrait, .masonry_gallery_holder.two_columns .masonry_gallery_item.square_small, .masonry_gallery_item.rectangle_portrait, .masonry_gallery_item.square_small, .post-password-form {width: 100%;}
 	.qode_pricing_tables .q_price_table.active {margin-top: 20px;margin-bottom: 25px;}
 	.q_price_table.qode_pricing_table_advanced .price_table_inner .value {font-size: 11px;}
 	.q_price_table.qode_pricing_table_advanced .price_table_inner .price {font-size: 45px;}
 	.call_to_action .text_wrapper .call_to_action_text {text-align: center;margin-bottom: 10px !important;}
 	.title.title_size_large h1 {font-size: 25px !important;line-height: 35px !important;}
+	.post-password-form {width: 100%;}
 	body.page-template-full_screen-php {font-size: inherit !important;height: auto !important;}
 	.full_screen_navigation_holder, .full_screen_preloader, .slimScrollBar {display: none !important;visibility: hidden !important;}
 	.full_screen_inner {visibility: visible !important;top: auto !important;-ms-touch-action: inherit !important;touch-action: inherit !important;}
@@ -457,6 +458,7 @@
 	.q_elements_holder.alignment_one_column_left.responsive_mode_from_600 .q_elements_item .q_elements_item_content {text-align: left !important;}
 	.q_elements_holder.alignment_one_column_center.responsive_mode_from_600 .q_elements_item .q_elements_item_content {text-align: center !important;}
 	.q_elements_holder.alignment_one_column_right.responsive_mode_from_600 .q_elements_item .q_elements_item_content {text-align: right !important;}
+	.grid-sizer, .masonry_gallery_holder.three_columns .grid-sizer, .masonry_gallery_holder.three_columns .masonry_gallery_item.rectangle_landscape, .masonry_gallery_holder.three_columns .masonry_gallery_item.rectangle_portrait, .masonry_gallery_holder.three_columns .masonry_gallery_item.square_big, .masonry_gallery_holder.three_columns .masonry_gallery_item.square_small, .masonry_gallery_holder.two_columns .grid-sizer, .masonry_gallery_holder.two_columns .masonry_gallery_item.rectangle_portrait, .masonry_gallery_holder.two_columns .masonry_gallery_item.square_small, .masonry_gallery_item.rectangle_portrait, .masonry_gallery_item.square_small {width: 100%;}
 	.latest_post_two_holder>ul>li {width: 100% !important;float: none;}
 	.filter_holder ul li {float: none;display: inline-block;vertical-align: middle;}
 	.testimonials_item, .testimonials_item.testimonials_header, .testimonials_item.tstm_item_large {width: calc(100% - 34px);padding-top: calc(100% - 34px);}
@@ -774,6 +776,41 @@
 @media only screen and (max-width:480px) {.qode-numbered-carousel .qode-nc-item-title {font-size: 30px;line-height: 1.1em;}
 	.qode-numbered-carousel .qode-nc-item-text {display: none;}
 	.qode-numbered-carousel .qode-nc-item-btn-wrapper {white-space: nowrap;}}
+@media only screen and (max-width:1024px) {#qode-portfolio-list-stacked .qode-pls-scroll-note {left: 30px;}
+	#qode-portfolio-list-stacked .qode-pls-widget-area {right: 30px;}
+	#qode-portfolio-list-stacked .qode-pls-end-of-scroll {max-width: 75vw;}
+	#qode-portfolio-list-stacked .qode-eos-title {font-size: 8vw;}
+	#qode-portfolio-list-stacked #qode-pls-text-items {display: block;}}
+@media only screen and (max-width:1366px) {.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image {width: 63%;}}
+@media only screen and (max-width:1024px) {.qode-portfolio-project-slider.swiper-container {margin-left: 44px;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image {width: 75%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image .qodef-pps-title {top: 3px;right: -39%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image .qodef-pps-title a {font-size: 55px;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-bottom-content {padding-left: 15px;width: 66%;right: -66%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-bottom-content .qode-qode-pps-info {margin-bottom: 23px;}}
+@media only screen and (max-width:1000px) {.qode-portfolio-project-slider.swiper-container {height: calc(100vh - 100px);}}
+@media only screen and (max-width:768px) {.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image {flex-direction: column;width: 79%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image .qodef-pps-title {right: initial;left: 0;top: -86px;width: 60%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-bottom-content {position: relative;bottom: 0;left: 0;padding-left: 0;width: 100%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-bottom-content .qode-qode-pps-info {margin-bottom: 23px;margin-top: 35px;}}
+@media only screen and (max-width:600px) {#qode-portfolio-list-stacked .qode-pls-scroll-note, #qode-portfolio-list-stacked .qode-pls-widget-area {display: none;}
+	.qode-portfolio-project-slider.swiper-container {margin-left: 0;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image {width: 100%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image .qodef-pps-title {right: initial;left: 0;top: 80px;width: 60%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image .qodef-pps-title a {font-size: 45px;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-bottom-content {display: none;}
+	.qode-portfolio-project-slider.swiper-container .qode-pps-widget-area {left: 50%;transform: translateX(-50%);}
+	.qode-portfolio-project-slider.swiper-container .swiper-pagination {text-align: center;}
+	.qode-portfolio-project-slider.swiper-container .swiper-pagination-bullets {display: none;left: 0;bottom: 1vh !important;}
+	.qode-portfolio-project-slider.swiper-container .swiper-pagination-bullets .swiper-pagination-bullet:after {width: 50px;}
+	.qode-portfolio-project-slider.swiper-container .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {margin-right: 65px;}}
+@media only screen and (max-width:480px) {.qode-portfolio-project-slider.swiper-container .swiper-slide {padding: 0 20px;box-sizing: border-box;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image {width: 100%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-image .qodef-pps-title {right: initial;left: 0;top: -73px;width: 100%;}
+	.qode-portfolio-project-slider.swiper-container .swiper-slide .qode-pps-inner .qode-pps-bottom-content {display: none;}
+	.qode-portfolio-project-slider.swiper-container .qode-pps-widget-area {bottom: 10vh;}
+	.qode-portfolio-project-slider.swiper-container .swiper-pagination-bullets {display: block;left: 0;bottom: 20vh !important;}}
+.qode-with-portfolio-project-slider .content {min-height: auto !important;}
 @media only screen and (max-width:1400px) and (min-width:1201px) {.qode-pl-holder.qode-standard-layout.qode-six-columns .qode-pli:nth-child(6n+1) {clear: none;}
 	.qode-pl-holder.qode-standard-layout.qode-six-columns .qode-pli:nth-child(5n+1) {clear: both;}}
 @media only screen and (max-width:1400px) {.qode-pl-holder.qode-standard-layout.qode-six-columns .qode-pli {width: 20%;}
