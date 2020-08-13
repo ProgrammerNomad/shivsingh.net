@@ -1,2 +1,0 @@
-# shivsingh.net
-Profile website
