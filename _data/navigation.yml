@@ -1,22 +1,22 @@
 - title: Home
-  url: 
+  url: /
 
 - title: About
-  url: about-shiv-singh/
+  url: /about-shiv-singh/
   
 - title: Instagram
-  url: instagram/
+  url: /instagram/
       
 - title: Services
-  url: services/
+  url: /services/
   
 - title: Portfolio
-  url: portfolio/
+  url: /portfolio/
   
 - title: Support
   url: #
   sublinks:
     - title: Contact Me
-      url: contact-me/
+      url: /contact-me/
     - title: Blog
-      url: blog/
+      url: /blog/
