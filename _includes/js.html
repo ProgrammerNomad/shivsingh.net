@@ -41,6 +41,19 @@
 <!-- instagramFeed -->
 <script src="{{ "/assets/js/jquery.instagramFeed.min.js" | relative_url }}"></script>
 
+$(window).on('load', function(){
+  $.instagramFeed({
+    'username': 'joinshivsingh',
+    'container': "#instagram-feed",
+    'items_per_row': 4,
+	'items': 20,
+	'display_profile':true,
+    'display_biography':true,
+    'display_igtv':false,
+	'margin': 0.5
+  });
+});
+
 {% endif %}
 
 <!-- script for tesimonials carousel slider -->
