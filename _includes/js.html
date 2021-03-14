@@ -36,6 +36,13 @@
 <!-- owlcarousel -->
 <script src="{{ "/assets/js/owl.carousel.js" | relative_url }}"></script>
 
+{% if page.url == "/instagram/" %}
+
+<!-- instagramFeed -->
+<script src="{{ "/assets/js/jquery.instagramFeed.min.js" | relative_url }}"></script>
+
+{% endif %}
+
 <!-- script for tesimonials carousel slider -->
 <script>
   $(document).ready(function () {
