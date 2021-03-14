@@ -28,10 +28,10 @@ sitemap:
             </div>
             <ul class="follow-social">
                 <li><p>Follow me </p></li>
-                <li><a href="#url"><span class="fa fa-behance"></span></a></li>
-                <li><a href="#url"><span class="fa fa-linkedin"></span></a></li>
-                <li><a href="#url"><span class="fa fa-facebook-official"></span></a></li>
-                <li><a href="#url"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="https://github.com/shivsingh7150" target="_blank"><i class="fab fa-github-square"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/shivsingh7150/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/joinshivsingh" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="https://twitter.com/joinshivsingh" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
             </ul>
         </div>
     </div>
