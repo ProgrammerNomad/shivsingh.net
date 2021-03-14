@@ -15,7 +15,7 @@ sitemap:
         <div class="banner-wrapper text-center">
             <div class="">
                 <span class="text">About Me</span>
-                <h1 class="mb-4 title">Hello, <span class="type-js"><span class="text-js">I’m Mike Tyson</span></span><br>
+                <h1 class="mb-4 title">Hello, <span class="type-js"><span class="text-js">I’m Shiv SIngh</span></span><br>
                     I’m working as UI/UX Designer.</h1>
                 <p class="mx-lg-5">I love <strong>Graphic design</strong> and <strong>Photography</strong> and have been working on my portfolio since 2016.
                     I Can give your business a new Creative start right away!
