@@ -3,19 +3,19 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light stroke">
       
-      {{% if site.full_logo %}}
+      {% if site.full_logo %}
 	  
         <a class="navbar-brand" href="{{ site.url }}">
             <img src="{{ site.path }}{{ site.full_logo }}" alt="{{ site.title }}" title="{{ site.title }}" style="height:35px;" />
         </a>
 		
-		{{% else %}}
+		{% else %}
 		
 		<a class="navbar-brand" href="{{ site.url }}">
         <span> {{ site.title }}</span>
 		</a>
 		
-		{{% endif %}}
+		{% endif %}
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa icon-expand fa-bars"></span>
