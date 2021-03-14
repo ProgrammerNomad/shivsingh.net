@@ -17,6 +17,10 @@ g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will
 
 markdown: kramdown
 
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
 defaults: # Recommended defaults, you may set your own
   -
     scope:
