@@ -47,3 +47,8 @@ compress_html:
   startings: [html, head, body]
 
 rss: true # RSS feed icon on or off
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
