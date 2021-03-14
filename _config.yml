@@ -54,7 +54,8 @@ rss: true # RSS feed icon on or off
 plugins:
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-seo-tag  
   
 paginate: 5
 paginate_path: "/blog/page:num/"
