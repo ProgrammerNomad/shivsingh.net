@@ -15,7 +15,8 @@
     {% assign current = null %} {% endif %} {% assign sublinks = entry.sublinks %}
     {% if sublinks %}
     <li class="nav-item dropdown {{ current }}">
-      <a class="nav-link" href="{{ site.url }}{{ entry.url }}">{{ entry.title }} <span class="fa fa-angle-down"></span></a>
+      <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ entry.url }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ entry.title }} <span class="fa fa-angle-down"></span>
+      </a>
       <ul class="nav-item dropdown">
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           {% for sublink in sublinks %}
