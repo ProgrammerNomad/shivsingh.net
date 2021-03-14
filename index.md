@@ -3,7 +3,7 @@ layout: page
 full_logo: true
 title: 
 subtitle: 
-description: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+description: I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!
 sitemap:
   priority: 1.0
 ---
@@ -37,11 +37,6 @@ sitemap:
     </div>
 </section>
 <!-- //banner section -->
-
-<div class="display-ad" style="margin: 8px auto; display: block; text-align:center;">
-<!---728x90--->
-
-</div>
   
 <!-- home page about section -->
 <section class="w3l-homeblock1" id="about">
@@ -73,10 +68,6 @@ sitemap:
     </div>
 </section>
 <!-- //home page about section -->
-
-<div class="display-ad" style="margin: 8px auto; display: block; text-align:center;">
-<!---728x90--->
-</div>
   
 <!-- home page about section -->
 <section class="w3l-homeblock2" id="skills">
@@ -136,10 +127,6 @@ sitemap:
     </div>
 </section>
 <!-- //home page about section -->
-
-<div class="display-ad" style="margin: 8px auto; display: block; text-align:center;">
-<!---728x90--->
-</div>
   
 <!-- home page about section -->
 <section class="w3l-homeblock3" id="awards">
