@@ -2,13 +2,20 @@
 <header id="site-header" class="fixed-top">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light stroke">
-      <a class="navbar-brand" href="{{ site.url }}">
-        <span> {{ site.title }}</span>
-      </a>
-      <!-- if logo is image enable this   
+      
+		{{% if site.full_logo %}}
+	  
         <a class="navbar-brand" href="{{ site.url }}">
             <img src="{{ site.full_logo }}" alt="{{ site.title }}" title="{{ site.title }}" style="height:35px;" />
-        </a> -->
+        </a>
+		
+		{{% else %}}
+		
+		<a class="navbar-brand" href="{{ site.url }}">
+        <span> {{ site.title }}</span>
+		</a>
+		
+		{{% endif %}}
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa icon-expand fa-bars"></span>
