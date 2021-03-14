@@ -5,27 +5,26 @@ layout: compress
 <html lang="en">
 <head>
 {% include meta_tags/base.html %}
-{% include css.html %}
+{% include externals/styling.html %}
 </head>
 <body>
 <div class="wrapper">
 
 <br>
 <br>
-{% include blog/post-page-title.html %}
+{% include page/post-page-title.html %}
 
-{% include blog/splash_image.html %}
+{% include post/splash_image.html %}
 
 <br>
 {{ content }}
 
 <br>
 {% if page.comments %}
-{% include blog/disqus.html %}
+{% include post/disqus.html %}
 {% endif %}
 <br>
 {% include page/about.html %}
-{% include js.html %}
 </div>
 </body>
 </html>
