@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  Some Articles Are Just So Long They Deserve a Really Long Title To See if Things Will Break Well
 date:   2020-12-25
 tags: tag1 tag2
