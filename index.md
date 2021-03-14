@@ -23,7 +23,7 @@ sitemap:
             </div>
             <div class="row">
               <div class="col-lg-8 mx-lg-auto col-md-10">
-                <img src="{{ site.url }}assets/images/banner.png" alt="" class="img-fluid mt-lg-5 mt-3">
+                <img src="{{ site.url }}/assets/images/banner.png" alt="" class="img-fluid mt-lg-5 mt-3">
               </div>
             </div>
             <ul class="follow-social">
@@ -60,7 +60,7 @@ sitemap:
                 </div>
                 <div class="col-lg-6 mt-lg-0 mt-5">
                     <div class="position-relative">
-                        <img src="{{ site.url }}assets/images/about.jpg" alt="" class="radius-image img-fluid">
+                        <img src="{{ site.url }}/assets/images/about.jpg" alt="" class="radius-image img-fluid">
                     </div>
                 </div>
             </div>
@@ -76,11 +76,11 @@ sitemap:
             <div class="row">
                 <div class="col-lg-6 align-self">
                     <div class="position-relative px-lg-5 mx-lg-0 mx-md-5 image-padding">
-                        <img src="{{ site.url }}assets/images/skills.png" alt="" class="radius-image img-fluid">
+                        <img src="{{ site.url }}/assets/images/skills.png" alt="" class="radius-image img-fluid">
                         <div class="position-absolute-images">
-                            <img src="{{ site.url }}assets/images/file.png" class="img-fluid pos-img" alt="" />
-                            <img src="{{ site.url }}assets/images/file1.png" class="img-fluid pos-img1" alt="" />
-                            <img src="{{ site.url }}assets/images/file2.png" class="img-fluid pos-img2" alt="" />
+                            <img src="{{ site.url }}/assets/images/file.png" class="img-fluid pos-img" alt="" />
+                            <img src="{{ site.url }}/assets/images/file1.png" class="img-fluid pos-img1" alt="" />
+                            <img src="{{ site.url }}/assets/images/file2.png" class="img-fluid pos-img2" alt="" />
                         </div>
                     </div>
                 </div>
@@ -141,21 +141,21 @@ sitemap:
                         achieve Success </p>
                     <div class="reward-list mt-5">
                         <div class="reward-item">
-                            <div class="reward-item-photo"><img src="{{ site.url }}assets/images/banner.png" alt="" class="img-fluid"></div>
+                            <div class="reward-item-photo"><img src="{{ site.url }}/assets/images/banner.png" alt="" class="img-fluid"></div>
                             <div class="reward-item-detail">
                                 <span class="reward-item-title">Web design awards</span>
                                 <p class="reward-item-descr">For Best UX/UI Design App</p>
                             </div>
                         </div>
                         <div class="reward-item">
-                            <div class="reward-item-photo"><img src="{{ site.url }}assets/images/skills.png" alt="" class="img-fluid"></div>
+                            <div class="reward-item-photo"><img src="{{ site.url }}/assets/images/skills.png" alt="" class="img-fluid"></div>
                             <div class="reward-item-detail">
                                 <span class="reward-item-title">Inovative ideas design Awards</span>
                                 <p class="reward-item-descr">For Most Loved Illustration </p>
                             </div>
                         </div>
                         <div class="reward-item">
-                            <div class="reward-item-photo"><img src="{{ site.url }}assets/images/banner.png" alt="" class="img-fluid"></div>
+                            <div class="reward-item-photo"><img src="{{ site.url }}/assets/images/banner.png" alt="" class="img-fluid"></div>
                             <div class="reward-item-detail">
                                 <span class="reward-item-title">Creative Design awards</span>
                                 <p class="reward-item-descr">For Best UX/UI Project Design</p>
@@ -165,11 +165,11 @@ sitemap:
                 </div>
                 <div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
                     <div class="position-relative px-lg-5 mx-lg-0 mx-md-5 image-padding">
-                        <img src="{{ site.url }}assets/images/awards.png" alt="" class="radius-image img-fluid">
+                        <img src="{{ site.url }}/assets/images/awards.png" alt="" class="radius-image img-fluid">
                         <div class="position-absolute-images">
-                            <img src="{{ site.url }}assets/images/award.png" class="img-fluid pos-img" alt="" />
-                            <img src="{{ site.url }}assets/images/award1.png" class="img-fluid pos-img1" alt="" />
-                            <img src="{{ site.url }}assets/images/award2.png" class="img-fluid pos-img2" alt="" />
+                            <img src="{{ site.url }}/assets/images/award.png" class="img-fluid pos-img" alt="" />
+                            <img src="{{ site.url }}/assets/images/award1.png" class="img-fluid pos-img1" alt="" />
+                            <img src="{{ site.url }}/assets/images/award2.png" class="img-fluid pos-img2" alt="" />
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@ sitemap:
             <div class="row">
                 <div class="col-lg-6 align-self">
                     <div class="position-relative px-lg-5">
-                        <img src="{{ site.url }}assets/images/clients.png" alt="" class="radius-image img-fluid">
+                        <img src="{{ site.url }}/assets/images/clients.png" alt="" class="radius-image img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6 mt-lg-0 mt-5">
@@ -203,7 +203,7 @@ sitemap:
                                             Dolores molestias adipisci dolor sit amet! by the Desire to achieve Success .</q>
                                     </blockquote>
                                     <div class="testi-des">
-                                        <div class="test-img"><img src="{{ site.url }}assets/images/team1.jpg" class="img-fluid"
+                                        <div class="test-img"><img src="{{ site.url }}/assets/images/team1.jpg" class="img-fluid"
                                                 alt="client-img">
                                         </div>
                                         <div class="peopl align-self">
@@ -224,7 +224,7 @@ sitemap:
                                             Dolores molestias adipisci dolor sit amet! by the Desire to achieve Success.</q>
                                     </blockquote>
                                     <div class="testi-des">
-                                        <div class="test-img"><img src="{{ site.url }}assets/images/team2.jpg" class="img-fluid"
+                                        <div class="test-img"><img src="{{ site.url }}/assets/images/team2.jpg" class="img-fluid"
                                                 alt="client-img">
                                         </div>
                                         <div class="peopl align-self">
@@ -245,7 +245,7 @@ sitemap:
                                             Dolores molestias adipisci dolor sit amet! by the Desire to achieve Success.</q>
                                     </blockquote>
                                     <div class="testi-des">
-                                        <div class="test-img"><img src="{{ site.url }}assets/images/team3.jpg" class="img-fluid"
+                                        <div class="test-img"><img src="{{ site.url }}/assets/images/team3.jpg" class="img-fluid"
                                                 alt="client-img">
                                         </div>
                                         <div class="peopl align-self">
@@ -266,7 +266,7 @@ sitemap:
                                             Dolores molestias adipisci dolor sit amet! by the Desire to achieve Success.</q>
                                     </blockquote>
                                     <div class="testi-des">
-                                        <div class="test-img"><img src="{{ site.url }}assets/images/team4.jpg" class="img-fluid"
+                                        <div class="test-img"><img src="{{ site.url }}/assets/images/team4.jpg" class="img-fluid"
                                                 alt="client-img">
                                         </div>
                                         <div class="peopl align-self">
@@ -287,7 +287,7 @@ sitemap:
                                             Dolores molestias adipisci dolor sit amet! by the Desire to achieve Success.</q>
                                     </blockquote>
                                     <div class="testi-des">
-                                        <div class="test-img"><img src="{{ site.url }}assets/images/team2.jpg" class="img-fluid"
+                                        <div class="test-img"><img src="{{ site.url }}/assets/images/team2.jpg" class="img-fluid"
                                                 alt="client-img">
                                         </div>
                                         <div class="peopl align-self">
@@ -346,15 +346,15 @@ sitemap:
                 </div>
                 <div class="col-lg-6 align-self text-center mt-lg-0 mt-md-5 mt-4">
                     <div class="images">
-                        <img src="{{ site.url }}assets/images/client1.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client2.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client3.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client4.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client5.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client6.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client2.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client3.png" class="img-fluid" alt="" />
-                        <img src="{{ site.url }}assets/images/client4.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client1.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client2.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client3.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client4.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client5.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client6.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client2.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client3.png" class="img-fluid" alt="" />
+                        <img src="{{ site.url }}/assets/images/client4.png" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
