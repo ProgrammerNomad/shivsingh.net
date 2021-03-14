@@ -21,9 +21,7 @@
       <ul class="nav-item dropdown">
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           {% for sublink in sublinks %}
-          <li>
-            <a href="{{ site.url }}{{ sublink.url }}">{{ sublink.title }}</a>
-          </li>
+            <a class="dropdown-item" href="{{ site.url }}{{ sublink.url }}">{{ sublink.title }}</a>
           {% endfor %}
         </div>
       </ul>
