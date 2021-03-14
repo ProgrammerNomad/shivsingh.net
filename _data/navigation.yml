@@ -1,0 +1,19 @@
+- title: Home
+  url: /
+
+- title: About
+  url: /about-shiv-singh/
+  
+- title: Instagram
+  url: /instagram/
+
+- title: Support
+  url: #
+  sublinks:
+    - title: Contact Me
+      url: /contact-me/
+    - title: Blog
+      url: /blog/
+      
+- title: Services
+  url: /services/
