@@ -15,8 +15,12 @@ tags:
   name: jekyll
 ---
 
+<section class="w3l-banner pb-5">
+<div class="container pb-md-3">
 <div class="card-columns">
   {% for project in site.data.projects %}
     {% include post/project_card.html %}
   {% endfor %}
 </div>
+</div>
+</section>
