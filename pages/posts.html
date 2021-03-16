@@ -7,9 +7,8 @@ permalink: /posts
 sitemap:
   priority: 0.9
 ---
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     # HTML code to display each post
-	<p>Test</p>
 { % endfor %}
 
 {% include paginator.html %}
