@@ -11679,3 +11679,7 @@ a.btn-empty:hover span {
 @media (max-width: 480px) {
   a.btn-empty {
     margin-top: 20px; } }
+	
+#contact {
+	border-top: 1px solid var(--border-color);
+}
