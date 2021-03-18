@@ -12,11 +12,13 @@ layout: compress
 {% include header.html %}
 {% include side-modal.html %}
 {{ content }}
-<br>
+
 {% if page.comments %}
-{% include post/disqus.html %}
-{% endif %}
 <br>
+{% include post/disqus.html %}
+<br>
+{% endif %}
+
 
 {% include footer.html %}
 {% include js.html %}
