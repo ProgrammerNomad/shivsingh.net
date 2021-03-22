@@ -11683,3 +11683,10 @@ a.btn-empty:hover span {
 #contact {
 	border-top: 1px solid var(--border-color);
 }
+#photo-reel .reward-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 30px;
+    margin-bottom: 25px;
+    align-items: center;
+}
