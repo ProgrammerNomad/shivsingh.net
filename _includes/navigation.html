@@ -9,7 +9,7 @@
 {% endfor %}
 
 <ul class="navbar-nav ml-auto">
-    {% for entry in site.data.navigation %} 
+    {% for entry in site.data.navigation %}
 	
 	{% if entry.url == current_page %}
 	
@@ -43,3 +43,25 @@
     </li>
     {% endif %} {% endfor %}
   </ul>
+  <ul class="navbar-nav ml-auto">
+  {% for item in site.data.navigation %}
+  {% if item.sublinks[0] %}
+    <li class="nav-item dropdown {% if item.url == page.url %}active{% endif %}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" href="{{ item.url }}">{{ item.title }} <span class="fa fa-angle-down"></span></a>
+	  <ul class="nav-item dropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		{% for entry in item.sublinks %}
+            <a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
+		{% endfor %}
+        </div>
+      </ul>
+    </li>
+	{% else %}
+	<li class="nav-item {% if item.url == page.url %}active{% endif %}">
+      <a  class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+	{% endif %}
+{% endfor %}
+  </ul>
+  
+  
