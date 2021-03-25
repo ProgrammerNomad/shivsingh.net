@@ -37,5 +37,12 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
   
-paginate: 5
-paginate_path: "/posts/page:num/"
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
