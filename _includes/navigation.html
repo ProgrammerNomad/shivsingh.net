@@ -1,6 +1,6 @@
   <ul class="navbar-nav ml-auto">
-  {% for item in site.data.navigation %}
   {% assign i = 0 %}
+  {% for item in site.data.navigation %}
   {% if item.sublinks[0] %}
     <li class="nav-item dropdown {% if item.url == page.url %}active{% endif %}" id="navbarDropdown-{{ i }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <a class="nav-link dropdown-toggle" href="{{ item.url }}">{{ item.title }} <span class="fa fa-angle-down"></span></a>
