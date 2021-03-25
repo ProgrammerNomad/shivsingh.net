@@ -2,18 +2,19 @@
   {% assign i = 0 %}
   {% for item in site.data.navigation %}
   {% if item.sublinks[0] %}
-    <li class="nav-item dropdown {% if item.url == page.url %}active{% endif %}" id="navbarDropdown-{{ i }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <a class="nav-link dropdown-toggle" href="{{ item.url }}">{{ item.title }} <span class="fa fa-angle-down"></span></a>
-	  <ul class="nav-item dropdown">
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ i }}">
-		{% for entry in item.sublinks %}
-            <a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
-		{% endfor %}
+	<li class="nav-item dropdown {% if item.url == page.url %}active{% endif %}">
+      <a class="nav-link dropdown-toggle" href="{{ entry.url }}" id="navbarDropdown-{{ i }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  {{ entry.title }} <span class="fa fa-angle-down"></span></a>
+      <ul class="nav-item dropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ i }}>
+          {% for sublink in item.sublinks %}
+            <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a>
+          {% endfor %}
         </div>
       </ul>
     </li>
-	{% else %}
 	
+	{% else %}
 	<li class="nav-item {% if item.url == page.url %}active{% endif %}">
       <a  class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
     </li>
