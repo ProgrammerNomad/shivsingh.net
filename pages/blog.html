@@ -31,48 +31,49 @@ pagination:
 {% endif %}
 
 <paginate>
-  <ul>
+<nav aria-label="...">
+  <ul class="pagination">
   {%- if paginator.page_trail -%}
 
     {% if paginator.page > 2 -%}
-    <li class="previous">
-        <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt;&lt;</a>
+    <li class="page-item">
+        <a class="page-link" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt;&lt;</a>
     </li>
     {%- endif -%}
 
     {%- if paginator.previous_page -%}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt;</a>
+    <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt;</a>
     </li>
     {%- endif -%}
 
     {%- if paginator.page_trail -%}
       {%- for trail in paginator.page_trail -%}
-        <li>
-          <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}" {%- if paginator.page == trail.num -%}class="active"{%- endif -%}>{{ trail.num }}</a>
+        <li class="page-item">
+          <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}" {%- if paginator.page == trail.num -%}class="active"{%- endif -%}>{{ trail.num }}</a>
         </li>
       {%- endfor -%}
     {%- endif -%}
 
     {%- if paginator.next_page -%}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&gt;</a>
+    <li class="page-item">
+        <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&gt;</a>
     </li>
     {%- endif -%}
 
     {%- assign notNearEnd = paginator.page | plus:1 -%}
     {%- if notNearEnd < paginator.total_pages  -%}
-    <li class="previous">
-        <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">&gt;&gt;</a>
+    <li class="page-item">
+        <a class="page-link" href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">&gt;&gt;</a>
     </li>
     {%- endif -%}
   {%- endif -%}
   </ul>
+</nav>
 </paginate>
 
 
-<nav aria-label="...">
-  <ul class="pagination">
+
     <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1">Previous</a>
     </li>
@@ -84,8 +85,7 @@ pagination:
     <li class="page-item">
       <a class="page-link" href="#">Next</a>
     </li>
-  </ul>
-</nav>
+
 
 </div>
 </section>
