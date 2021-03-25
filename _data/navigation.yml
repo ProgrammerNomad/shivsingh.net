@@ -2,8 +2,9 @@
   url: /
 
 - title: About
-  url: /about-shiv-singh/
   sublinks:
+    - title: About
+      url: /about-shiv-singh/
     - title: Built with
       url: /built-with/
   
@@ -17,7 +18,6 @@
   url: /portfolio/
   
 - title: Support
-  url: /contact-me/
   sublinks:
     - title: Contact Me
       url: /contact-me/

@@ -3,7 +3,7 @@
   {% for item in site.data.navigation %}
   {% if item.sublinks[0] %}
 	<li class="nav-item dropdown {% if item.url == page.url %}active{% endif %}">
-      <a class="nav-link dropdown-toggle" href="{{ item.url }}" id="navbarDropdown-{{ i }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" id="navbarDropdown-{{ i }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	  {{ item.title }} <span class="fa fa-angle-down"></span></a>
       <ul class="nav-item dropdown">
         <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ i }}">
