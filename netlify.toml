@@ -7,8 +7,3 @@
 
 [build.environment]
 	JEKYLL_ENV = "production"
-
-[[redirects]]
-	from = "/*"
-	to = "/404/"
-	status = 404
