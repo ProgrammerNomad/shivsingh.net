@@ -11710,3 +11710,13 @@ a.btn-empty:hover span {
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
 }
+.page-item > .active{
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  border: 1px solid #dee2e6;
+}
