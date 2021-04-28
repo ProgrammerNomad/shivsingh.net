@@ -4,6 +4,6 @@
 
 My persional site.
 
-Live Demo: https://shivsingh7150.github.io/shivsingh.net/
+Live Here: https://www.shivsingh.net/
 
 
