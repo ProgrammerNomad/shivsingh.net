@@ -11706,3 +11706,7 @@ a.btn-empty:hover span {
   bottom: 0;
   background: white;
 }
+[data-theme="dark"] .navbar-brand img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
