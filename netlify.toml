@@ -1,14 +1,14 @@
 [build]
-  command = "jekyll build --trace"
-  publish = "_site"
+	command = "jekyll build --trace"
+	publish = "_site"
   
 [[plugins]]
-package = "netlify-plugin-image-optim"
+	package = "netlify-plugin-image-optim"
 
 [build.environment]
-  JEKYLL_ENV = "production"
+	JEKYLL_ENV = "production"
 
 [[redirects]]
-  from = "/*"
-  to = "/404/"
-  status = 404
+	from = "/*"
+	to = "/404/"
+	status = 404
