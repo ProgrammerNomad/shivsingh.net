@@ -11707,6 +11707,6 @@ a.btn-empty:hover span {
   background: white;
 }
 [data-theme="dark"] .navbar-brand img{
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: brightness(0) invert(1);;
+  filter: brightness(0) invert(1);;
 }
