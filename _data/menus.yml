@@ -1,5 +1,15 @@
 ---
 header:
+- url: "/blog/"
+  weight: 2
+  parent: item_1eMUn7r
+  title: Blog & News
+- url: "/contact-me/"
+  weight: 1
+  parent: item_1eMUn7r
+  title: Contact Me
+- weight: 6
+  title: Support
 - url: "/portfolio/"
   weight: 5
   title: Portfolio
