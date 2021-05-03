@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: jekyll-posts
@@ -10,8 +10,8 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: asset/images
+public_path: "/asset/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
