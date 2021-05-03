@@ -23,7 +23,8 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        {% include navigation.html %}
+		{% assign menu = site.menus.header %}
+		{% include menus.html %}
       </div>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
