@@ -1,0 +1,31 @@
+header:
+  - url: /
+    title: Home
+    identifier: home
+  - url: /about-shiv-singh/
+    title: About
+    identifier: about
+  - url: /about-shiv-singh/
+    title: About Me
+    menus: about
+  - url: /built-with/
+    title: Built with
+    menus: about
+  - url: /instagram/
+    title: Instagram
+    identifier: instagram
+  - url: /services/
+    title: Services
+    identifier: services
+  - url: /portfolio/
+    title: Portfolio
+    identifier: portfolio
+  - url: /contact-me/
+    title: Support
+    identifier: support
+  - url: /contact-me/
+    title: Contact Me
+    menus: support
+  - url: /blog/
+    title: Blog & News
+    menus: support
