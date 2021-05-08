@@ -14,16 +14,16 @@ pagination:
 <div class="blog-item mt-30">
                 {% if post.post_image %}
                 <div class="blog-thumb">
-                    <a href="{{post.url}}.html"><img src="{{ post.post_image | relative_url }}" alt="{{post.title}}"></a>
+                    <a href="{{post.url}}"><img src="{{ post.post_image | relative_url }}" alt="{{post.title}}"></a>
                 </div>
                 {% endif %}
                 <div class="blog-content">
 				<p class="post-title__subtitle"><i class="far fa-calendar-alt"></i> Published {{ post.date | date: "%e %b, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%e %b, 20%y" }}) {% endif %} by <i class="fas fa-user"></i> {% if post.author.name %} <a href="{{ post.author.homepage }}" target="_blank">{{ post.author.name }}</a>{% else %}<a href="{{ site.author.homepage }}" target="_blank">{{ site.author.name }}</a>{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}</p>
                     <br/>
-					<h3 class="title"><a href="{{post.url}}.html">{{post.title}}</a></h3>
+					<h3 class="title"><a href="{{post.url}}">{{post.title}}</a></h3>
 					<br/>
                     <p>{{post.excerpt | strip_html | truncatewords: "25"}}</p>
-                    <a href="{{post.url}}.html">View Details <i class="fal fa-long-arrow-right"></i></a>
+                    <a href="{{post.url}}">View Details <i class="fal fa-long-arrow-right"></i></a>
                 </div>
             </div>
 {% endfor %}
