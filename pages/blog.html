@@ -6,18 +6,44 @@ pagination:
   enabled: true
 ---
 <section id="home" class="w3l-banner pb-5">
-<div class="container pb-md-3 pt-5">
-   
-<ul>
+	<div class="container pb-md-3 pt-5">
+		<div class="row">
+			<div class="col-md-8">
+				<ul>
   {% for post in paginator.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+	<li>
+	{% if post.post_image %}
+	<div class="blog-thumb">
+	<a href="{{post.url}}">
+	<img src="{{ post.post_image | relative_url }}" alt="{{post.title}}"/>
+	</div>
+	{% endif %}
+	<div class="blog-content">
+		<ul>
+		{% if post.author %}
+		<li>
+		<i class="fal fa-user"/> {{post.author}}</li>
+		{% endif %}
+		{% if post.date %}
+		<li>
+		<i class="fal fa-calendar-alt"/> {{post.date | date_to_long_string}}</li>
+		{% endif %}
+		</ul>
+	<h3 class="title">
+	<a href="{{post.url}}">{{post.title}}</a>
+	</h3>
+	<p>{{post.excerpt | strip_html | truncatewords: "25"}}</p>
+	<a href="{{post.url}}">View Details <i class="fal fa-long-arrow-right"/>
+	</a>
+	</div>
+	</li>
 {% endfor %}
 </ul>
 
 {% include paginator.html %}
-
 </div>
-</section>
+				<div class="col-md-4"/>
+			</div>
+		</div>
+	</section>
 
