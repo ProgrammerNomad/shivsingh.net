@@ -11721,3 +11721,6 @@ a.btn-empty:hover span {
 .pagination > .page-item > .active{
   background: var(--primary-light);
 }
+.blog-item {
+  padding: 0px 0px 50px 0px;
+}
