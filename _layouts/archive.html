@@ -18,7 +18,8 @@ pagination:
 	<div class="container pb-md-3 pt-5">
 		<div class="row">
 			<div class="col-md-8">
-  {% for post in site.posts %}
+
+  {% for post in page.posts %}
 <div class="blog-item mt-30">
                 {% if post.post_image %}
                 <div class="blog-thumb">
@@ -35,6 +36,7 @@ pagination:
                 </div>
             </div>
 {% endfor %}
+
 </div>
 				<div class="col-md-4">
 				
