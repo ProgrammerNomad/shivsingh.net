@@ -5,7 +5,7 @@ date: 2019-03-09 20:37:13 +0600
 tags: wordpress hosting
 categories: [education, tech]
 author: aaron_potts
-post_image: "/assets/images/blog-5.jpg"
+post_image: "/assets/images/posts/award2.png"
 ---
 
 <h6>html5 Static Site Generator For All amet facilisis </h6>

@@ -5,7 +5,7 @@ date: 2019-02-09 20:37:13 +0600
 tags: technology education
 categories: [tech]
 author: themeix
-post_image: "/assets/images/blog-2.jpg"
+post_image: "/assets/images/posts/award2.png"
 ---
 
 <h4>Alternative Free Way To Be A Prodessional Designer </h4>

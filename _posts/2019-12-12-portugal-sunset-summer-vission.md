@@ -4,7 +4,7 @@ title: "Portugal’s Sunset summer vission"
 date: 2019-12-12 20:37:13 +0600
 tags: design
 categories: [design]
-post_image: "/assets/images/project/project-5.jpg"
+post_image: "/assets/images/posts/award2.png"
 author: "Rubel"
 ---
 

@@ -4,7 +4,7 @@ title: "5 ingredient cilantro vinaigrette"
 date: 2019-12-14 20:37:13 +0600
 tags: design
 categories: [design]
-post_image: "/assets/images/project/project-3.jpg"
+post_image: "/assets/images/posts/award2.png"
 author: "Rubel"
 ---
 

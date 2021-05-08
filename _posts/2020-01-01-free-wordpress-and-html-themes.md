@@ -4,7 +4,7 @@ title: "Free WordPress And HTML themes"
 date: 2020-01-01 20:37:13 +0600
 tags: development
 categories: [development]
-post_image: "/assets/images/project/project-2.jpg"
+post_image: "/assets/images/posts/award2.png"
 author: "Rubel"
 ---
 
