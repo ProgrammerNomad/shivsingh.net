@@ -23,11 +23,11 @@ pagination:
 		<ul>
 		{% if post.author %}
 		<li>
-		<i class="fal fa-user"/> {{post.author}}</li>
+		<i class="fal fa-user"> {{post.author}}</li>
 		{% endif %}
 		{% if post.date %}
 		<li>
-		<i class="fal fa-calendar-alt"/> {{post.date | date_to_long_string}}</li>
+		<i class="fal fa-calendar-alt"> {{post.date | date_to_long_string}}</li>
 		{% endif %}
 		</ul>
 	<h3 class="title">
