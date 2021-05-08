@@ -18,7 +18,7 @@ pagination:
                 </div>
                 {% endif %}
                 <div class="blog-content">
-				<p class="post-title__subtitle"><i class="far fa-calendar-alt"></i> Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %} by {% if post.author.name %} <i class="fas fa-user"></i> <a href="{{ post.author.homepage }}" target="_blank">{{ post.author.name }}</a>{% else %}<a href="{{ site.author.homepage }}" target="_blank">{{ site.author.name }}</a>{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}</p>
+				<p class="post-title__subtitle"><i class="far fa-calendar-alt"></i> Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %} by <i class="fas fa-user"></i> {% if post.author.name %} <a href="{{ post.author.homepage }}" target="_blank">{{ post.author.name }}</a>{% else %}<a href="{{ site.author.homepage }}" target="_blank">{{ site.author.name }}</a>{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}</p>
                     <ul class="navbar">
                         {% if post.author %}
                         <li><i class="fas fa-user"></i> {{post.author}}</li>
