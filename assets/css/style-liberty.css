@@ -11716,7 +11716,8 @@ a.btn-empty:hover span {
   padding: .5rem .75rem;
   margin-left: -1px;
   line-height: 1.25;
-  background-color: var(--bg-color);
-  color: var(--font-color);
   border: 1px solid #dee2e6;
+}
+.pagination > .page-item > .active{
+  background: var(--primary-light);
 }
