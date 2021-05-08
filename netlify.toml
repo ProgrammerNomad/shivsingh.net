@@ -2,8 +2,8 @@
 	command = "jekyll build --trace"
 	publish = "_site"
   
-[[plugins]]
-	package = "netlify-plugin-image-optim"
+#[[plugins]]
+#	package = "netlify-plugin-image-optim"
 
 [build.environment]
 	JEKYLL_ENV = "production"
