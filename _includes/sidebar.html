@@ -20,8 +20,8 @@
         </div>
         <div class="blog-list-item">
             <ul>
-{% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+{% for category in site.categories %}
+    <a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }}</a>
     {% endfor %}
             </ul>
         </div>
@@ -31,7 +31,9 @@
             <h3 class="title">Populer Tag</h3>
         </div>
         <div class="blog-tag text-capitalize">
-            
+            {% for tag in site.tags %}
+    <a href="/tag/{{ tag[0] | slugify }}/" class="post-tag">{{ tag[0] }}</a>
+    {% endfor %}
         </div>
     </div>
     <div class="blog-add-area mt-55">
