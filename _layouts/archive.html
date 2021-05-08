@@ -14,37 +14,32 @@ pagination:
 <div class="wrapper">
 {% include header.html %}
 {% include side-modal.html %}
-<section id="home" class="w3l-banner pb-5">
-	<div class="container pb-md-3 pt-5">
-		<div class="row">
-			<div class="col-md-8">
-
-  {% for post in paginator.posts %}
-<div class="blog-item mt-30">
-                {% if post.post_image %}
-                <div class="blog-thumb">
-                    <a href="{{post.url}}"><img class="img-fluid" src="{{ post.post_image | relative_url }}" alt="{{post.title}}"></a>
-                </div>
-                {% endif %}
-                <div class="blog-content">
-				<p class="post-title__subtitle"><i class="far fa-calendar-alt"></i> Published {{ post.date | date: "%e %b, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%e %b, 20%y" }}) {% endif %} by <i class="fas fa-user"></i> {% if post.author.name %} <a href="{{ post.author.homepage }}" target="_blank">{{ post.author.name }}</a>{% else %}<a href="{{ site.author.homepage }}" target="_blank">{{ site.author.name }}</a>{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}</p>
-                    <br/>
-					<h3 class="title"><a href="{{post.url}}">{{post.title}}</a></h3>
-					<br/>
-                    <p>{{post.excerpt | strip_html | truncatewords: "25"}}</p>
-                    <a href="{{post.url}}">View Details <i class="fal fa-long-arrow-right"></i></a>
-                </div>
-            </div>
-{% endfor %}
-
-
-</div>
-				<div class="col-md-4">
-				
-				</div>
-			</div>
-		</div>
-	</section>
+<section class="service-area pt-100 pb-50">
+  <div class="container">
+      <div class="row">
+        {% for post in page.posts %}
+          <div class="col-md-6 mb-50 ">
+              <div class="services-box">
+                  {% if post.post_image %}
+                  <div class="services-img">
+                      <img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}">
+                  </div>
+                  {% endif %}
+                  <div class="services-content">
+                      <div class="card-title">
+                          <h2 class="blog-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+                      </div>
+                      <div class="card-text">
+                          <p>{{post.excerpt | strip_html | truncatewords:"30"}}</p>
+                      </div>
+                      <a href="{{post.url}}" class="btn">Read More</a>
+                  </div>
+              </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>
 
 {% include footer.html %}
 {% include js.html %}
