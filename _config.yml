@@ -81,15 +81,3 @@ autopages:
     slugify:
       mode: 'default'   # :tag is slugified.
       case: false
-
-
-# Archives pages    
-jekyll-archives:
-  enabled: all
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
