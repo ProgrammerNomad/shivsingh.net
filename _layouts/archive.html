@@ -19,7 +19,7 @@ pagination:
 		<div class="row">
 			<div class="col-md-8">
 
-  {% for post in paginator.posts %}
+  {% for post in page.posts %}
 <div class="blog-item mt-30">
                 {% if post.post_image %}
                 <div class="blog-thumb">
@@ -36,7 +36,6 @@ pagination:
                 </div>
             </div>
 {% endfor %}
-
 <div class="row">
 <div class="col-md-12">
 <!-- Pagination links -->
