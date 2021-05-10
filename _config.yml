@@ -70,6 +70,17 @@ autopages:
     slugify:
       mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
       case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+      
+# Tag pages, omit to disable
+  tags:
+    layouts: 
+      - 'autopage_tags.html'
+    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'
+    silent: false
+    slugify:
+      mode: 'default'   # :tag is slugified.
+      case: false
 
 
 # Archives pages    
