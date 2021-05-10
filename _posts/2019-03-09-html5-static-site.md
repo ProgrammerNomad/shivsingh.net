@@ -2,7 +2,7 @@
 layout: post
 title: "html5 Static Site Generator For All amet facilisis"
 date: 2019-03-09 20:37:13 +0600
-tags: wordpress hosting
+tags: wordpress hosting test new
 categories: [education, tech]
 author: aaron_potts
 post_image: "/assets/images/posts/award2.png"

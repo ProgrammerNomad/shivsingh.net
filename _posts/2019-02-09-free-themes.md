@@ -2,7 +2,7 @@
 layout: post
 title: "Easily choose from thousan of free themes"
 date: 2019-02-09 20:37:13 +0600
-tags: technology education
+tags: technology education test new
 categories: [tips, tech]
 author: ecuelass
 post_image: "/assets/images/posts/award2.png"

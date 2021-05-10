@@ -2,7 +2,7 @@
 layout: post
 title: "Just Trying And Enjoying magna etiam"
 date: 2019-02-09 20:37:13 +0600
-tags: technology education
+tags: technology education  test new
 categories: [tech]
 author: themeix
 post_image: "/assets/images/posts/award2.png"

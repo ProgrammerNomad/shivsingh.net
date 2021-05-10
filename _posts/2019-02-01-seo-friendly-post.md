@@ -2,7 +2,7 @@
 layout: post
 title: "Seo Friendly Post Title venenatis a condimentum vitae"
 date: 2019-02-01 20:37:13 +0600
-tags: technology education
+tags: technology education test new
 categories: [health]
 author: "ecuelass"
 post_image: "/assets/images/posts/award2.png"
