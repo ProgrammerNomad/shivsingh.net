@@ -81,3 +81,14 @@ autopages:
     slugify:
       mode: 'default'   # :tag is slugified.
       case: false
+      
+# Collection pages, omit to disable
+  collections:
+    layouts: 
+      - 'collection.html'
+    title: 'Posts in collection :coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
+    silent: false
+    slugify:
+      mode: 'default'   # :coll is slugified.
+      case: false 
