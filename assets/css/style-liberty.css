@@ -11724,3 +11724,6 @@ a.btn-empty:hover span {
 .blog-item > .blog-thumb{
   padding: 30px 0px 20px 0px;
 }
+iframe[src*="ads-iframe"]{
+  display: none;
+}
