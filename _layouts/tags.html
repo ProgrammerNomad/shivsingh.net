@@ -5,8 +5,7 @@ layout: default
 	<div class="container pb-md-3 pt-5">
 		<div class="row">
 			<div class="col-md-8">
-			<h1 class="page-heading">AutoPage for Tag <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h1>
-			  This page is automagically created and paginated for each tag available in the posts on this site
+			<h1 class="page-heading">Tag <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h1>
 
   {{ content | markdownify }}
 
@@ -27,7 +26,6 @@ layout: default
                 </div>
             </div>
 {% endfor %}
-
 
 {% include paginator.html %}
 </div>
