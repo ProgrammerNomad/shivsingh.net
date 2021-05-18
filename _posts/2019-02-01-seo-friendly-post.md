@@ -2,12 +2,8 @@
 layout: post
 title: Seo Friendly Post Title venenatis a condimentum vitae
 date: 2021-05-18T08:30:45.209Z
-tags:
-  - a
-  - b
-  - c
-categories:
-  - health
+tags: technology education test new
+categories: [tips, tech]
 author: Shiv
 post_image: /assets/images/posts/award2.png
 ---
