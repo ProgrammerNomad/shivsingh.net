@@ -28,6 +28,7 @@ collections:
           value_field: 'name',
           }
         - { label: 'Body', name: 'body', widget: 'markdown' }
+        - { label: 'Post image', name: 'post_image', widget: 'image' }
       
     - name: 'authors'
       label: 'Authors'
