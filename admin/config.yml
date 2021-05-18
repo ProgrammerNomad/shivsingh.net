@@ -16,8 +16,13 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-        - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, default: ["news"] }
-        - { label: 'Categories', name: 'categories', widget: 'list', allow_add: true, default: ["news"] }
+        - { 
+            label: "Tags"
+            name: "tags"
+            widget: "list"
+            allow_add: false
+            default: ["news"]
+          }
         - {
           label: 'Author',
           name: 'author',
@@ -26,7 +31,7 @@ collections:
           display_fields: [display_name],
           search_fields: [display_name],
           value_field: 'name',
-         }
+          }
         - { label: 'Body', name: 'body', widget: 'markdown' }
       
     - name: 'authors'
