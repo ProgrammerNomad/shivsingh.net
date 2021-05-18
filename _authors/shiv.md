@@ -1,6 +1,6 @@
 ---
 short_name: shiv
-name: Shiv
+name: Shiv Short
 display_name: Shiv Singh
 position: Owner
 ---
