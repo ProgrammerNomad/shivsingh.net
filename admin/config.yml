@@ -16,17 +16,8 @@ collections:
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-        - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, options: ['a', 'b', 'c'] }
-        - { 
-            label: 'Categories', 
-            name: 'categories',
-            multiple: true,
-            widget: 'relation',
-            collection: 'authors',
-            display_field: [display_name],
-            search_field: [display_name],
-            value_field: 'name'
-            }
+        - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, options: ['News', 'Tech', 'Update'] }
+        - { label: 'Categories', name: 'categories', widget: 'select', multiple: true, options: ['News', 'Tech', 'Update'] }
         - {
           label: 'Author',
           name: 'author',
