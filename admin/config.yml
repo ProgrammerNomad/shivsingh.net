@@ -17,7 +17,16 @@ collections:
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Publish Date', name: 'date', widget: 'datetime' }
         - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, options: ['a', 'b', 'c'] }
-        - { label: 'Categories', name: 'categories', widget: 'relation', collection: 'blog', display_fields: [categories], search_fields: [categories], value_field: 'categories'}
+        - { 
+            label: 'Categories', 
+            name: 'categories',
+            multiple: true,
+            widget: 'relation',
+            collection: 'blog',
+            display_field: 'categories'
+            search_field: 'categories'
+            value_field: 'categories'
+            }
         - {
           label: 'Author',
           name: 'author',
