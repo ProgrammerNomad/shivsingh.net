@@ -17,10 +17,10 @@ collections:
         - { label: 'Title', name: 'title', widget: 'string' }
         - { label: 'Publish Date', name: 'date', widget: 'datetime' }
         - { 
-            label: "Tags"
-            name: "tags"
-            widget: "list"
-            allow_add: false
+            label: "Tags",
+            name: "tags",
+            widget: "list",
+            allow_add: false,
             default: ["news"]
           }
         - {
