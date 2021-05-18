@@ -21,7 +21,7 @@ collections:
             name: 'tags',
             widget: 'select',
             allow_add: true,
-            default: ["news"]
+            options: ["news"]
           }
         - {
           label: 'Author',
