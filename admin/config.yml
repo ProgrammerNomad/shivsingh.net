@@ -22,10 +22,10 @@ collections:
             name: 'categories',
             multiple: true,
             widget: 'relation',
-            collection: 'blog',
-            display_field: 'categories.*'
-            search_field: 'categories.*'
-            value_field: 'categories'
+            collection: 'authors',
+            display_field: [display_name],
+            search_field: [display_name],
+            value_field: 'name'
             }
         - {
           label: 'Author',
