@@ -23,8 +23,8 @@ collections:
             multiple: true,
             widget: 'relation',
             collection: 'blog',
-            display_field: 'categories'
-            search_field: 'categories'
+            display_field: 'categories.*'
+            search_field: 'categories.*'
             value_field: 'categories'
             }
         - {
