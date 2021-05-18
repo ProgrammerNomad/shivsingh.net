@@ -3,12 +3,13 @@ layout: post
 title: Seo Friendly Post Title venenatis a condimentum vitae
 date: 2021-05-18T08:30:45.209Z
 tags:
-  - a
-  - b
-  - c
+  - News
+  - Tech
+  - Update
 categories:
-  - tips
-  - tech
+  - News
+  - Update
+  - Tech
 author: Shiv
 post_image: /assets/images/posts/award2.png
 ---
