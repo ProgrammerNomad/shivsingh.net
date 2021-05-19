@@ -67,6 +67,3 @@ collections:
           name: 'images'
           widget: 'image'
           allow_multiple: true
-          media_library:
-            config:
-                multiple: true
