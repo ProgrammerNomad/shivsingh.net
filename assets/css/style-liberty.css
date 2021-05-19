@@ -15532,3 +15532,7 @@ iframe[src*="ads-iframe"] {
   background: var(--primary-light);
   display: inline;
 }
+
+.blog-sidebar .blog-title hr{
+  border-bottom: 1px solid var(--border-color);
+}
