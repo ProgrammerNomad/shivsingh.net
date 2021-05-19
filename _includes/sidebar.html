@@ -29,7 +29,7 @@
         <div class="blog-category">
             <ul class="blog-category">
 {% for category in site.categories %}
-    <li class="blog-category-item"><a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }}</a></li>
+    <li class="blog-category-item"><a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }} ({{ category[1].size }})</a></li>
     {% endfor %}
             </ul>
         </div>
