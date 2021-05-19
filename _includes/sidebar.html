@@ -26,10 +26,10 @@
             <h3 class="title">Categories</h3>
             <hr>
         </div>
-        <div class="blog-tag">
-            <ul class="blog-tag">
+        <div class="blog-category">
+            <ul class="blog-category">
 {% for category in site.categories %}
-    <li class="blog-tag-item"><a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }}</a></li>
+    <li class="blog-category-item"><a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }}</a></li>
     {% endfor %}
             </ul>
         </div>
