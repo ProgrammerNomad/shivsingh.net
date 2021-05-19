@@ -11727,3 +11727,11 @@ a.btn-empty:hover span {
 iframe[src*="ads-iframe"]{
   display: none;
 }
+.netlify-identity-menu{
+  list-style: none;
+}
+
+.netlify-identity-menu > .netlify-identity-item{
+  display: inline-block;
+  padding-right: 10px; 
+}
