@@ -15524,3 +15524,6 @@ iframe[src*="ads-iframe"] {
 #netlify-identity-widget {
   z-index: 9999 !important;
 }
+.blog-sidebar .title {
+  padding: 5px 0px 5px 0px;
+}
