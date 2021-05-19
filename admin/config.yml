@@ -51,14 +51,18 @@ collections:
       editor:
         preview: false
       fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
-        - { 
-        label: 'Images',
-        name: 'images',
-        widget: 'image'
-        media_library:
+        - label: 'Title'
+          name: 'title'
+          widget: 'string'
+        - label: 'Publish Date'
+          name: 'date'
+          widget: 'datetime'
+        - label: 'Body'
+          name: 'body'
+          widget: 'markdown'
+        - label: 'Images',
+          name: 'images',
+          widget: 'image'
+          media_library:
             config:
                 multiple: true
-         }
