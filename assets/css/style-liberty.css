@@ -15513,7 +15513,7 @@ a.btn-empty:hover span {
 iframe[src*="ads-iframe"] {
   display: none;
 }
-.netlify-identity-menu {
+.netlify-identity-menu, .blog-tag{
   list-style: none;
 }
 
@@ -15526,4 +15526,7 @@ iframe[src*="ads-iframe"] {
 }
 .blog-sidebar .title {
   padding: 5px 0px 5px 0px;
+}
+.blog-tag > .blog-tag-item{
+
 }
