@@ -1,10 +1,12 @@
 <div class="blog-sidebar mt-30">
     <div class="blog-search">
         <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Search Keywords">
-                <button type="button"><i class="far fa-search"></i></button>
-            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search blog" aria-label="Search blog" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button"><i class="far fa-search"></i></button>
+                </div>
+              </div>
         </form>
     </div>
     <div class="blog-news white-bg mt-50">
@@ -20,24 +22,26 @@
     </div>
     <div class="blog-list white-bg mt-50">
         <div class="blog-title">
-            <h3 class="title">Category</h3>
+            <h3 class="title">Categories</h3>
         </div>
-        <div class="blog-list-item">
-            <ul>
+        <div class="blog-tag">
+            <ul class="blog-tag">
 {% for category in site.categories %}
-    <a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }}</a>
+    <li class="blog-tag-item"><a href="/category/{{ category[0] | slugify }}/" class="post-tag">{{ category[0] }}</a></li>
     {% endfor %}
             </ul>
         </div>
     </div>
     <div class="blog-list white-bg mt-50">
         <div class="blog-title">
-            <h3 class="title">Populer Tag</h3>
+            <h3 class="title">Tags</h3>
         </div>
-        <div class="blog-tag text-capitalize">
+        <div class="blog-tag">
+            <ul class="blog-tag">
             {% for tag in site.tags %}
-    <a href="/tag/{{ tag[0] | slugify }}/" class="post-tag">{{ tag[0] }}</a>
+            <li class="blog-tag-item"><a href="/tag/{{ tag[0] | slugify }}/" class="post-tag">{{ tag[0] }}</a></li>
     {% endfor %}
+    </ul>
         </div>
     </div>
     <div class="blog-add-area mt-55">
