@@ -43,3 +43,15 @@ collections:
         - { label: 'Display Name', name: 'display_name', widget: 'string' }
         - { label: 'Position', name: 'position', widget: 'string' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+    - name: 'Portfolio'
+      label: 'portfolio'
+      folder: '_portfolio/'
+      create: true
+      editor:
+        preview: false
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+        - { label: 'Images', name: 'images', widget: 'image', allow_multiple:true }
