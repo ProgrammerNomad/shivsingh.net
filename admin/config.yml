@@ -63,7 +63,7 @@ collections:
         - label: 'Body'
           name: 'body'
           widget: 'markdown'
-        - label: 'Images'
+        - label: 'Featured Images'
           name: 'images'
           widget: 'image'
           allow_multiple: true
