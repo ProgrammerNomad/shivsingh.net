@@ -15536,3 +15536,6 @@ iframe[src*="ads-iframe"] {
 .blog-sidebar .blog-title hr{
   border-bottom: 1px solid var(--border-color);
 }
+.blog-sidebar div {
+    padding-bottom: 10px;
+}
