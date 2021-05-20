@@ -5,6 +5,6 @@
     <div class="post-title__text">{{ page.title }}</div>
 </h1>
 <p class="post-title__subtitle">Published {{ page.date | date: "%b %e, 20%y" }} {% if page.updated %} (Updated {{ page.updated | date: "%b %e, 20%y" }}) {% endif %} by 
-{% assign author = page.authors | where: 'name', page.author | name %}
+{% assign author = page.author | where: 'name' %}
 {% if author %} - <a href="{{ author.url }}">{{ author.display_name }}</a>
   {% endif %}</p>
