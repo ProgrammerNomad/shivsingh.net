@@ -1,5 +1,5 @@
 ---
-name: Shiv
+name: shiv
 display_name: Shiv Singh
 position: Owner
 ---
