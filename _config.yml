@@ -83,6 +83,17 @@ autopages:
       case: false
       
 # Collection pages, omit to disable
+  collections:
+    enabled: false
+    layouts: 
+      - 'collection.html'
+    title: 'Posts in collection :coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
+    silent: false
+    slugify:
+      mode: 'default'   # :coll is slugified.
+      case: false 
+      
 collections:
     authors:
         output: true
