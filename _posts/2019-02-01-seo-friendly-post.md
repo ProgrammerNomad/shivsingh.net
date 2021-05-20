@@ -10,7 +10,7 @@ categories:
   - News
   - Update
   - Tech
-author: Shiv
+author: shiv
 post_image: /assets/uploads/wedding-map.jpg
 ---
 
