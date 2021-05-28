@@ -15543,3 +15543,7 @@ iframe[src*="ads-iframe"] {
     width: 100%;
     padding-bottom: 15px;
 }
+.blog-content {
+  padding-bottom: 50px;
+  clear: both;
+}
