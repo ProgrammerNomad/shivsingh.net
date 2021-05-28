@@ -15539,3 +15539,6 @@ iframe[src*="ads-iframe"] {
 .blog-sidebar div {
     padding-bottom: 10px;
 }
+.blog-content img {
+    width: 100%;
+}
