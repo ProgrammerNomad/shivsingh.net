@@ -17,8 +17,6 @@ Here are some examples of personalized wedding cards \[either for a greeting bag
 
 ![welcome map](/assets/uploads/ma_welcomemapf.jpg "welcome map")
 
-﻿
-
 ![mk map](/assets/uploads/mk_map21.jpg "mk map")
 
 ![mapkerry](/assets/uploads/mapkerry.jpg "mapkerry")
@@ -29,4 +27,4 @@ Here are some examples of personalized wedding cards \[either for a greeting bag
 
 
 
-Send an [email](mailto:larissa@papercakedesigns.com "papercake email") with any questions you may have… OR if you want to print at home, start the design process by purchasing the Custom Wedding Map.  \[you will receive proofs for revisions, followed by a high resolution digital PDF to be printed by you or your local printer]
+**Contact me** [here ](https://www.shivsingh.net/contact-me/)with any questions you may have… OR if you want to print at home, start the design process by purchasing the Custom Wedding Map.  \[you will receive proofs for revisions, followed by a high resolution digital PDF to be printed by you or your local printer]
