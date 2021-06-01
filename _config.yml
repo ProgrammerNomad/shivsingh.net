@@ -4,6 +4,7 @@ full_logo: /assets/images/shiv_logo.png
 description: My persional site
 url: "https://www.shivsingh.net"
 path: /shivsingh.net
+timezone: Asia/Kolkata
 
 author:
   name: Shiv Singh
