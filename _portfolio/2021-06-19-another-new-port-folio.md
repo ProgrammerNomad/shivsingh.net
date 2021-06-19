@@ -13,6 +13,10 @@ technologies:
   - Linux
   - Netlify
   - Jekyll
+galleryImages:
+  - /assets/uploads/1.png
+  - /assets/uploads/11.png
+  - /assets/uploads/11.png
 ---
 Hello,
 
