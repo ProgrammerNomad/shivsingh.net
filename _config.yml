@@ -97,3 +97,5 @@ autopages:
 collections:
     authors:
         output: true
+    gsuitecode:
+        output: true
