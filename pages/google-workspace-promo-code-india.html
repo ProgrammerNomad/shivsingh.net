@@ -6,7 +6,39 @@ description: Get up to 50% off on google workspace India
 permalink: /services/google-workspace-promo-code-india/
 ---
 <section class="w3l-banner pb-5">
-<div class="container pb-md-3">
-This project is yet to be published. Check back later!
+<div class="container">
+    <div class="row">
+    <div class="col-md-12">
+        <h4>Google workspace promo code</h4>
+    </div>
+
+
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                <th>Code</th>
+                <th>Type</th>
+                <th>Expire Date</th>
+                </tr>
+                </thead>
+            <tbody>
+            {% assign gsuitecodes = site.gsuitecode | reverse %}
+
+            {% for gsuitecode in gsuitecodes %}
+            <td>{{ gsuitecode.code }}</td>
+            <td>{{ gsuitecode.country }}</td>
+            <td>{{ gsuitecode.expirydate }}</td>
+            <tr>
+            </tr>
+            {% endfor %}
+            </tbody>
+
+            </table>
+
+    </div>
+
+    </div>
+
 </div>
 </section>
