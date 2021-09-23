@@ -12,7 +12,11 @@
   url: /instagram/
       
 - title: Services
-  url: /services/
+  sublinks:
+    - title: Services
+      url: /services/
+    - title: Google workspace promo code
+      url: /services/google-workspace-promo-code-india/
   
 - title: Portfolio
   url: /portfolio/
