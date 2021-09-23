@@ -10,7 +10,7 @@ categories:
   - News
   - Update
 author: shiv
-post_image: /assets/uploads/16.png
+image: /assets/uploads/16.png
 ---
 Today tested leaked version of windows 11, Its look windows 10 with new cover on it.
 

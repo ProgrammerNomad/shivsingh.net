@@ -9,7 +9,7 @@ categories:
   - DIY
   - Downloads
 author: shiv
-post_image: /assets/uploads/wedding.jpg
+image: /assets/uploads/wedding.jpg
 ---
 Here are some examples of personalized wedding cards \[either for a greeting bag or with an invitation]. A custom card is included if you choose papercake to design and assemble your complete invitation suite... Or I can stylize the card to match your present invitation design!
 

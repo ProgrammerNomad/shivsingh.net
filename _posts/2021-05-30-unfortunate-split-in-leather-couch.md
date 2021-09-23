@@ -7,7 +7,7 @@ tags:
 categories:
   - Update
 author: shiv
-post_image: /assets/uploads/5fd1dd1bbbc5d_pdhxus9ynxh21__700.jpg
+image: /assets/uploads/5fd1dd1bbbc5d_pdhxus9ynxh21__700.jpg
 ---
 घूमने की इच्छा इतनी जोर से हो रही है, की सोफे का छेद भी समंदर में वोट दिख रहा है। 😂😂
 
