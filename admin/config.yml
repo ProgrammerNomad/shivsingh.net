@@ -84,3 +84,27 @@ collections:
           widget: "list"
           summary: '{{fields.image}}'
           field: {label: Image, name: image, widget: image}
+      - name: 'gsuitecode'
+          label: 'gSuite code'
+          folder: '_gsuitecode/'
+          create: true
+          slug: '{{year}}-{{month}}-{{day}}-{{name}}'
+          editor:
+            preview: false
+          fields:
+            - label: 'Layout'
+              name: 'layout'
+              widget: 'hidden'
+              default: 'testimonial'
+            - label: 'Full Name'
+              name: 'name'
+              widget: 'string'
+            - label: 'Position'
+              name: 'position'
+              widget: 'string'
+            - label: 'Country'
+              name: 'country'
+              widget: 'string'
+            - label: 'Testimonial'
+              name: 'body'
+              widget: 'markdown'
