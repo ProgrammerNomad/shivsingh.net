@@ -85,23 +85,23 @@ collections:
           summary: '{{fields.image}}'
           field: {label: Image, name: image, widget: image}
     - name: 'gsuitecode'
-        label: 'gSuite code'
-        folder: '_gsuitecode/'
-        create: true
-        slug: '{{year}}-{{month}}-{{day}}-{{name}}'
-        editor:
-          preview: false
-        fields:
-          - label: 'Layout'
-            name: 'layout'
-            widget: 'hidden'
-            default: 'gsuitecode'
-          - label: 'Code'
-            name: 'code'
-            widget: 'string'
-          - label: 'Country'
-            name: 'country'
-            widget: 'string'
-          - label: 'Expiry date'
-            name: 'expirydate'
-            widget: 'string'
+      label: 'gSuite code'
+      folder: '_gsuitecode/'
+      create: true
+      slug: '{{year}}-{{month}}-{{day}}-{{name}}'
+      editor:
+        preview: false
+      fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'gsuitecode'
+      - label: 'Code'
+        name: 'code'
+        widget: 'string'
+      - label: 'Country'
+        name: 'country'
+        widget: 'string'
+      - label: 'Expiry date'
+        name: 'expirydate'
+        widget: 'string'
