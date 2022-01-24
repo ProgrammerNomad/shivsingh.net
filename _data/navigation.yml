@@ -10,6 +10,25 @@
     - title: Instagram
       url: /instagram/
       
+- title: Nomadic Life
+  sublinks:
+    - title: 2015
+      url: /nomadic-life/2015/
+    - title: 2016
+      url: /nomadic-life/2016/
+    - title: 2017
+      url: /nomadic-life/2017/
+    - title: 2018
+      url: /nomadic-life/2018/
+    - title: 2019
+      url: /nomadic-life/2019/
+    - title: 2020
+      url: /nomadic-life/2020/
+    - title: 2021
+      url: /nomadic-life/2021/ 
+    - title: 2022
+      url: /nomadic-life/2022/      
+      
 - title: Services
   sublinks:
     - title: Services
