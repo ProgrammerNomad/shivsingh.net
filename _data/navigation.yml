@@ -44,4 +44,6 @@
     - title: Contact Me
       url: /contact-me/
     - title: Blog & News
-      url: /blog/     
+      url: /blog/        
+    - title: Make payment
+      url: /make-payment/     
